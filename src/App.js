@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import NftImage from './components/NftImage';
 import NftTitle from './components/NftTitle';
+import NftText from './components/NftText';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <MainDiv>
         <NftImage />
         <NftTitle />
+        <NftText/>
       </MainDiv>
     </Container>
   );
@@ -24,13 +26,15 @@ background-color: hsl(217, 54%, 11%);
 
 const MainDiv = styled.div `
 min-height: 80%;
-min-width: 320px;
+max-width: 300px;
 display: flex;
 flex-direction: column;
 border-radius: 1rem;
 background-color: hsl(216, 50%, 16%);
 box-shadow: 1px 15px 20px 8px #000820;
 overflow: hidden;
+padding: 1.3rem;
+
 `
 
 export default App;

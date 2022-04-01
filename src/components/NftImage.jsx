@@ -10,8 +10,7 @@ export default function NftImage() {
 }
 
 const Image = styled.img`
-    max-width: 280px;
-    margin: 1.2rem auto;
-    
+    max-width: 300px;
+    /* margin: 1.2rem auto; */
     border-radius: 0.5rem;
 `

@@ -7,5 +7,7 @@ export default function NftTitle() {
 }
 
 const Title = styled.h3`
-
+font-size: 1.1rem;
+color: #FFF;
+margin: 1.4rem 0;
 `
