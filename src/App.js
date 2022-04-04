@@ -2,6 +2,9 @@ import styled from 'styled-components'
 import NftImage from './components/NftImage';
 import NftTitle from './components/NftTitle';
 import NftText from './components/NftText';
+import NftInfo from './components/NftInfo';
+import Line from './components/Line';
+import NftPerson from './components/NftPerson';
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
         <NftImage />
         <NftTitle />
         <NftText/>
+        <NftInfo/>
+        <Line/>
+        <NftPerson/>
       </MainDiv>
     </Container>
   );
@@ -36,5 +42,6 @@ overflow: hidden;
 padding: 1.3rem;
 
 `
+
 
 export default App;
