@@ -31,7 +31,7 @@ background-color: hsl(217, 54%, 11%);
 `
 
 const MainDiv = styled.div `
-min-height: 80%;
+max-height: 80%;
 max-width: 300px;
 display: flex;
 flex-direction: column;
